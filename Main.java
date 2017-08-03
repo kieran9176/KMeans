@@ -79,13 +79,6 @@ public class Main {
 
         } while (loop) ;
 
-
-        System.out.println("A.head Obs Num: " + A.head.obs_num);
-        System.out.println("A.tail Obs Num: " + A.tail.obs_num);
-
-        System.out.println("B.head Obs Num: " + B.head.obs_num);
-        System.out.println("B.tail Obs Num: " + B.tail.obs_num);
-
         boolean change;
 
         do {
@@ -151,12 +144,6 @@ public class Main {
 
         write_a_text_file("A.txt", A);
         write_a_text_file("B.txt", B);
-
-        System.out.println("A.head Obs Num: " + A.head.obs_num);
-        System.out.println("A.tail Obs Num: " + A.tail.obs_num);
-
-        System.out.println("B.head Obs Num: " + B.head.obs_num);
-        System.out.println("B.tail Obs Num: " + B.tail.obs_num);
 
     }
 
